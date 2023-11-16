@@ -1,9 +1,9 @@
 # AutoCaCoNet
 ## Abstract
-* Colorization is one of the attractive topics in computer vision areas. Traditional approaches generally depend on object-based approaches which require establishing a large-scale image dataset. Recent deep neural network approaches shed light on the potentiality and practicality of automatic image colorization tasks.
-* In this work, we propose a novel fully automatic cartoon colorization network called AutoCaCoNet using  conditional generative adversarial network with self-attention, segmentation, and color correction techniques.
-* Then, the experimental results, which are organized by both qualitative and quantitative evaluations, show the significance of AutoCaCoNet using the real-world cartoon dataset with greater evaluation metrics than prior research.
-* Moreover, a user survey with both user and expert groups examines the results of AutoCaCoNet as the highest scores.
+* Colorization is a captivating research area within the realm of computer vision. Conventional methods often rely on object-based strategies, necessitating access to extensive image datasets.
+* However, recent advancements in deep neural networks have illuminated the feasibility and practicality of automating image colorization tasks. This study introduces a pioneering automatic cartoon colorization network named Automatic Cartoon Colorization Network using self-attention GAN, segmentation, and color correction (AutoCaCoNet), harnessing the power of a conditional generative adversarial network (GAN) coupled with self-attention, segmentation, and color correction techniques.
+* The ensuing experimental results, meticulously presented through both qualitative and quantitative assessments, underscore the significance of AutoCaCoNet. This significance is particularly evident when applied to a realworld cartoon dataset, surpassing the performance metrics of preceding research endeavors. Furthermore, the findings from a user survey, encompassing both ordinary users and expert groups, consistently award AutoCaCoNet the highest scores.
+* We are pleased to announce the availability of our codebase and dataset to the public, encouraging further exploration and advancement in this domain.
 ## Methods
 ### cGAN
 AutoCaCoNet employs a conditional generative adversial network (cGAN) as its main framework.
